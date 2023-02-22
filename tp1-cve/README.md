@@ -60,3 +60,5 @@ Avec cette syntaxe, MySQL va ignorer la clause `WHERE` et exécuter la requête 
   RowDataPacket { id: 2, name: 'guest', secret: 'salut' }
 ]
 ```
+
+Le code utilisé pour générer la base de données et reproduire la CVE se trouve dans le fichier [index.js](./index.js).
