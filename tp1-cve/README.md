@@ -62,3 +62,5 @@ Avec cette syntaxe, MySQL va ignorer la clause `WHERE` et exécuter la requête 
 ```
 
 Le code utilisé pour générer la base de données et reproduire la CVE se trouve dans le fichier [index.js](./index.js).
+
+![](https://i.imgur.com/3q3wxrb.png)
