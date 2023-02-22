@@ -2,6 +2,7 @@
 # William - M2I M2 IASI
 
 ## 1 - Trouvez une CVE sortie en 2022 (score ≥ 7) 🔎
+## CVE-2016-20018
 Le package Knex.JS présente une vulnérabilité limité d’injection SQL pouvant être exploitée pour ignorer la clause WHERE d’une requête SQL.
 Cette vulnérabilité fonctionne seulement sur des bases de données MySQL et a été corrigée dans la version 2.4.0. Elle affecte des milliers de packages NodeJS utilisant Knex pour construire des requêtes SQL qui n'excluent pas les paramètres ayant pour type Object et Array.
 
